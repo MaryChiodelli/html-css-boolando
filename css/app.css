@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.main-header {
+    padding: 20px 0;
+    color: white;
+    background-color: #FF6900;
+}
+
+.main-header .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .main-nav,
+.main-header .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.main-header .logo {
+    width: 140px;
+}
+
+
+
+/* DEBUG */
+.debug * {
+    /* border: 2px solid salmon; */
+}
