@@ -67,19 +67,59 @@ img {
     width: calc(100% / 3);
 }
 
+/* CARD */
+.card-top {
+    position: relative;
+}
+
+.card .like-icon {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+}
+
+.card .label-container {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.card .label {
+    line-height: 23px;
+    padding: 10px;
+    color: white;
+}
+
+.card .label--sale {
+    background-color: red;
+}
+
+.card .label--sostenibility {
+    background-color: green;
+}
+
+.card .card__product {
+    text-transform: uppercase;
+}
+
+.card .card__sale {
+    color: red;
+    font-weight: 700;
+}
+
+.card .card__price {
+    text-decoration: line-through;
+}
+
 
 
 
 /* DEBUG */
-.debug main * {
-    border: 2px solid salmon;
-}
-
-.debug .card {
-    background-color: blue;
-}
-
-.debug .card-top, .debug .card-bottom {
-    border: 1px solid black;
-    padding: 10px;
+.debug .card * {
+    /* border: 1px solid black; */
 }
