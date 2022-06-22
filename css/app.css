@@ -33,7 +33,7 @@ img {
     background-color: #FF6900;
 }
 
-.main-header .row {
+.main-header .main-header__row {
     display: flex;
     justify-content: space-between;
 }
@@ -48,9 +48,34 @@ img {
     width: 140px;
 }
 
+/* MAIN */
+.section {
+    padding: 60px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: calc(100% / 3);
+}
+
+
 
 
 /* DEBUG */
-.debug * {
-    /* border: 2px solid salmon; */
+.debug main * {
+    border: 2px solid salmon;
+}
+
+.debug .card {
+    background-color: blue;
+    padding: 50px;
 }
