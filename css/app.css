@@ -50,7 +50,7 @@ img {
 
 /* MAIN */
 .section {
-    padding: 60px 0;
+    padding: 60px 0 10px 0;
 }
 
 .row {
@@ -61,6 +61,7 @@ img {
 
 .col {
     padding: 0 15px;
+    margin-bottom: 50px;
 }
 
 .col-4 {
@@ -97,10 +98,12 @@ img {
 
 .card .label--sale {
     background-color: red;
+    font-weight: 700;
 }
 
 .card .label--sostenibility {
     background-color: green;
+    font-weight: 700;
 }
 
 .card .card__product {
